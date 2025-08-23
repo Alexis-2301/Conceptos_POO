@@ -1,0 +1,14 @@
+com\mycompany\aplicacionpoo\Config\ConexionDB.class
+com\mycompany\aplicacionpoo\AplicacionPOO.class
+com\mycompany\aplicacionpoo\Model\CursoProfesor.class
+com\mycompany\aplicacionpoo\Model\CursosInscritos.class
+com\mycompany\aplicacionpoo\Model\CursosProfesores.class
+com\mycompany\aplicacionpoo\Model\Estudiante.class
+com\mycompany\aplicacionpoo\Model\Programa.class
+com\mycompany\aplicacionpoo\Model\Inscripcion.class
+com\mycompany\aplicacionpoo\Model\Facultad.class
+com\mycompany\aplicacionpoo\Model\Servicios.class
+com\mycompany\aplicacionpoo\Model\InscripcionesPersonas.class
+com\mycompany\aplicacionpoo\Model\Curso.class
+com\mycompany\aplicacionpoo\Model\Profesor.class
+com\mycompany\aplicacionpoo\Model\Persona.class
