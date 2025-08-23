@@ -27,6 +27,7 @@ import java.util.ArrayList;
  *
  * @author nicol
  */
+//Nicolás Orejuela Hernández 160004899 - Edward Alexis Murcia Rodriguez 160004825
 public class AplicacionPOO {
 
     public static void main(String[] args) throws SQLException {
