@@ -5,6 +5,7 @@
 package com.mycompany.aplicacionpoo;
 
 
+import View.VentanaPrincipal;
 import com.mycompany.aplicacionpoo.Model.Curso;
 import com.mycompany.aplicacionpoo.Model.CursoProfesor;
 import com.mycompany.aplicacionpoo.Model.CursosInscritos;
@@ -31,7 +32,7 @@ import java.util.ArrayList;
 public class AplicacionPOO {
 
     public static void main(String[] args) throws SQLException {
-        Date fecha = Date.valueOf("1988-08-23");
+        /*Date fecha = Date.valueOf("1988-08-23");
         
         Persona p1 = new Persona(8, "Santiago", "Hernandez", "SH@gmail.com", "Profesor");
         Profesor p3 = new Profesor(9, "Juan", "Hernandez", "JHernandez@gmail.com", "Catedratico");
@@ -71,15 +72,20 @@ public class AplicacionPOO {
         
         InscripcionesPersonas ip = new InscripcionesPersonas(new ArrayList<>());
         ip.inscribirPersona(p1);
-        ip.inscribirPersona(p3);
         
         System.out.println(ip.toString());
-       
         
-        //Mostrar desde el base de datos lista de InscripcionesPersonas
-        /*for(Persona p: InscripcionesPersonas.mostrarInformacion()){
+        ip.guardarInformacion(p1);
+        */
+        /*//Mostrar desde el base de datos lista de InscripcionesPersonas
+        for(Persona p: InscripcionesPersonas.mostrarInformacion()){
             System.out.println(p);
-        }*/
+        }
+        */
+        
+        VentanaPrincipal vp = new VentanaPrincipal();
+        vp.setVisible(true);
+        vp.setLocationRelativeTo(null);
         
     }
 }

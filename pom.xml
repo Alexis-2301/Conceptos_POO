@@ -20,6 +20,11 @@
         <version>2.2.224</version>
             <type>jar</type>
         </dependency>
+        <dependency>
+            <groupId>com.toedter</groupId>
+            <artifactId>jcalendar</artifactId>
+            <version>1.4</version>
+        </dependency>
     </dependencies>
 </project>
 
