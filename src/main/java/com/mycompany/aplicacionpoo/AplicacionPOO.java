@@ -5,7 +5,7 @@
 package com.mycompany.aplicacionpoo;
 
 
-import View.VentanaPrincipal;
+import com.mycompany.aplicacionpoo.View.VentanaPrincipal;
 import com.mycompany.aplicacionpoo.Model.Curso;
 import com.mycompany.aplicacionpoo.Model.CursoProfesor;
 import com.mycompany.aplicacionpoo.Model.CursosInscritos;
